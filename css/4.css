@@ -1,0 +1,205 @@
+*{
+	text-decoration: none;
+	color:#000000;
+	text-align: center;
+}
+
+#wrapper{
+	min-width: 3000px;
+	max-width: 100%;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	background-color:#F8FFE5;
+	font-family: Georgia;
+}
+
+nav{
+	width:100%;
+	background-color:#7DDE92;
+	overflow:auto;
+}
+
+.nav{
+	list-style-type:none;
+	font-size: 80px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-left: 0;
+	color: #004E64;
+
+}
+.nav{
+	display: inline-block;
+	white-space: nowrap;
+	
+
+}
+
+nav a{
+	display: block;
+	padding: 6px 30px 3px;
+	border-right: 5px dotted #004E64;
+	outline: 0;
+	text-decoration: none;
+	font-family: monospace; 
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	
+}
+
+nav li a:link{
+ display: block;
+ color: black;
+}
+
+nav li a:visited{
+ color: black;
+ 
+}
+
+nav li a:hover {
+ background-color:#F8FFE5;
+ color:black;
+}
+
+nav li a.active {
+ background-color: #F8FFE5;
+ color:#000080;
+}
+
+header{
+	width:100%;
+	background-color:#7DDE92;
+	overflow:auto
+	
+}
+
+article{
+	text-align: center;
+}
+
+
+p{
+	font-size: 50px;
+	font-family: Georgia;
+	font-weight: normal;
+	text-align: center;
+}
+
+h4{
+	font-size: 43px;
+	text-align: left;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia;
+}
+
+
+h2{
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.blog1{
+	width: 75%;
+	margin: auto;
+	border-style: ridge;
+	padding: 10px;
+	font-size: 35px;
+	background-color:#2EBFA5;
+	text-align: left
+}
+
+
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  
+}
+
+#navlist li, #navlist a {
+  height: 205px;
+  display: block;
+}
+
+#facebook{
+	background: url('../images/icons.png') no-repeat -970px -30px;
+	width: 205px;
+	height: 205px;
+	left: 30%;
+}
+
+
+#facebook a:hover{
+	background: url('../images/icons.png') no-repeat -970px -266px;
+	width: 205px;
+	height: 205px;
+	left:30%
+}
+	
+#insta{
+	background: url('../images/icons.png') no-repeat -349px -30px;
+	width: 206px;
+	height: 205px;
+	left: 40%;
+}
+
+#insta a:hover{
+	background: url('../images/icons.png') no-repeat -353px -283px;
+	width: 205px;
+	height: 205px;
+	left:40%;
+}
+
+
+#twitter{
+	background: url('../images/icons.png') no-repeat -649px -30px;
+	width: 206px;
+	height: 205px;
+	left: 50%
+}
+
+#twitter a:hover{
+	background: url('../images/icons.png') no-repeat -636px -274px;
+	width: 200px;
+	height: 200px
+	left:50%;
+}
+
+
+
+footer{
+	width: 100%;
+	margin-top: 300px;
+	margin-bottom; 0;
+}
+
+.sources{
+	background-color:#7DDE92;
+	font-family: monospace;
+	font-size: 50px;
+}
+
+.bottom{
+	text-align: center;
+	background-color: #2EBFA5;
+	font-size:30px;
+}
+	
